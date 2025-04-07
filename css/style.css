@@ -1357,7 +1357,7 @@ section .social_icons {
 
 .banner-slider {
     height: auto;
-    background-image: url('../img/white-curtain.jpg');
+    background-image: url('../img/white-curtain1.jpg');
     width: 100%;
     background-size: cover;
     background-position: top center;
@@ -1407,9 +1407,9 @@ section .social_icons {
     
     .right_blog_top {
         float: right;
-        margin-right: 210px;
-        box-shadow: -35px 30px 0 0;
-        margin-top: 90px;
+        /* margin-right: 210px; */
+        box-shadow: -35px 30px 0 0 #b29fa3;
+        /* margin-top: 90px; */
         transition: ease all 0.5s;
     }
     
@@ -8583,7 +8583,7 @@ img[data-toggle="modal"] {
 }
 
 .design_layout {
-    background-image: url(../images/lamp.png);
+    background-image: url(../images/Sofa-pillow-flowers-curtains-bright-style_1920x1080.jpg);
     background-color: #f7f7f7;
     background-repeat: no-repeat;
     min-height: 765px;
@@ -8648,11 +8648,23 @@ img[data-toggle="modal"] {
     position: relative;
     z-index: 1;
 }
+.back_blog1::after {
+    width: 545px;
+    position: absolute;
+    height: 500px;
+    content: "";
+    right: -50px;
+    top: -65px;
+    box-shadow: 0 0 60px -10px rgba(0,0,0,.15);
+    background: #fff;
+}
 
-/* .back_blog img {
-    width: auto;
-    float: right;
-} */
+.back_blog1 img {
+    position: relative;
+    z-index: 1;
+}
+
+
 
 form button {
     width: 230px;
@@ -8807,6 +8819,10 @@ form button:focus {
     left: -50px;
     top: -65px;
 }
+.p-relative.r-left .back_blog1::after {
+    left: -50px;
+    top: -65px;
+}
 
 .p-relative.r-left img {
     float: left;
@@ -8921,7 +8937,7 @@ form button:focus {
     position: relative;
 }
 
-#inner_pade.banner-slider::after {
+/* #inner_pade.banner-slider::after {
     width: 40%;
     background: #6b6c70;
     position: absolute;
@@ -8930,7 +8946,7 @@ form button:focus {
     content: "";
     z-index: 1;
     height: 100%;
-}
+} */
 
 section .cont_info span {
     color: #000;
@@ -8974,23 +8990,24 @@ section .cont_info span {
     margin: 15px 0 5px;
 }
 
-.cont_info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .banner-slider h2 {
-    color: #fff;
+    color: #000;
     z-index: 9;
     position: relative;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     margin: 150px 0 0;
     font-size: 42px;
+    display: flex;
+    justify-content: center;
 }
 
 .back_blog {
+    margin-bottom: 50px;
+}
+.back_blog1 {
     margin-bottom: 50px;
 }
 
