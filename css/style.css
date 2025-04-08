@@ -8929,7 +8929,7 @@ form button:focus {
     height: 485px;
     /* background-image: url('../images/inner_page_banner.png'); */
     width: 100%;
-    background-size: auto;
+    background-size: cover;
     background-position: right top;
     padding: 94px 0 0 0;
     position: relative;
